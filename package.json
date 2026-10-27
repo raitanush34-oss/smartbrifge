@@ -1,0 +1,27 @@
+{
+  "name": "staffsync",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "StaffSync - Modern Enterprise MERN Workforce, HRMS & Payroll Suite",
+  "scripts": {
+    "start": "node run-dev.js",
+    "dev": "node run-dev.js",
+    "seed": "npm --prefix server run seed",
+    "build": "npm --prefix client run build",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "mern",
+    "staffsync",
+    "hrms",
+    "attendance",
+    "payroll",
+    "leave-management",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "StaffSync",
+  "license": "MIT"
+}
